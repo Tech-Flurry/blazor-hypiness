@@ -1,0 +1,17 @@
+{
+  "name": "blazor-hypiness",
+  "version": "1.0.0",
+  "description": "Blazor UI Components",
+  "main": "index.js",
+  "scripts": {
+    "buildCss": "postcss ./src/css/**/*.css --base ./src/css/ --dir ./BlazorHypiness/wwwroot/ --verbose && postcss ./Css/**/*.razor.css --base ./Css --dir ./Css --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Umair Tahir",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
+  }
+}
