@@ -2,7 +2,111 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .text-xs-normal-leadingnone {
+    @apply text-xs font-normal font-base leading-3;
+  }
+  .text-xs-noraml-leading4 {
+    @apply text-xs font-normal font-base leading-none;
+  }
+  .text-xs-medium-leading4 {
+    @apply text-xs font-medium font-base leading-none;
+  }
+  .text-xs-semi-leading4 {
+    @apply text-xs font-semibold font-base leading-none;
+  }
+  .text-xs-medium-leading4-trackingwider {
+    @apply text-xs-medium-leading4 uppercase tracking-wide;
+  }
+  .text-xs-medium-leading4-trackingwide {
+    @apply text-xs-medium-leading4 uppercase tracking-tight;
+  }
+  .text-xs-semi-leading4-upper {
+    @apply text-xs-semi-leading4 uppercase;
+  }
+  .text-xs-semi-leading4-trackingwide {
+    @apply text-xs-semi-leading4-upper tracking-tight;
+  }
+  .text-xs-semi-leading4-trackingwider {
+    @apply text-xs-semi-leading4-upper tracking-wider;
+  }
+  .text-xs-normal-leading5 {
+    @apply text-xs font-normal font-base leading-tight;
+  }
+  .text-xs-medium-leading5 {
+    @apply text-xs font-medium font-base leading-tight;
+  }
+  .text-xs-semi-leading5-trackingwide {
+    @apply text-xs font-semibold font-base uppercase leading-tight tracking-tight;
+  }
+  .text-sm-normal-leadingnone {
+    @apply text-sm font-normal font-base leading-[14px];
+  }
+  .text-sm-medium-leading4 {
+    @apply text-sm font-medium font-base leading-none;
+  }
+  .text-sm-normal-leading5 {
+    @apply text-sm font-normal font-base leading-tight;
+  }
+  .text-sm-medium-leading5 {
+    @apply text-sm font-medium font-base leading-tight;
+  }
+  .text-sm-semibold-leading5 {
+    @apply text-sm font-semibold font-base leading-tight;
+  }
+  .text-sm-bold-leading5 {
+    @apply text-sm font-bold font-base leading-tight;
+  }
+  .text-sm-normal-leading5-upper {
+    @apply text-sm-normal-leading5 uppercase;
+  }
+  .text-sm-normal-leading5-italic {
+    @apply text-sm-normal-leading5 italic;
+  }
+  .text-sm-medium-leading5-underline {
+    @apply text-sm-medium-leading5 underline;
+  }
+  .text-sm-medium-leading5-trackingwide {
+    @apply text-sm-medium-leading5 tracking-tight uppercase;
+  }
+  .text-sm-semibold-leading5-underline {
+    @apply text-sm-medium-leading5 underline;
+  }
+  .text-sm-semibold-leading5-trackingwide {
+    @apply text-sm-medium-leading5 uppercase tracking-tight;
+  }
+  .text-sm-semibold-leading5-trackingwider {
+    @apply text-sm-medium-leading5 uppercase tracking-wide;
+  }
+  .text-sm-normal-leading8 {
+    @apply text-sm font-normal font-base leading-loose;
+  }
+  .text-sm-medium-leading8 {
+    @apply text-sm font-medium font-base leading-loose;
+  }
+  .text-base-normal-leadingnone {
+    @apply text-base font-normal font-base leading-none;
+  }
+  .text-base-normal-leading6 {
+    @apply text-base font-normal font-base leading-normal;
+  }
+  .text-base-medium-leading6 {
+    @apply text-base font-medium font-base leading-normal;
+  }
+  .text-base-semi-leading6 {
+    @apply text-base font-semibold font-base leading-normal;
+  }
+  .text-base-bold-leading6 {
+    @apply text-base font-bold font-base leading-normal;
+  }
 
-body{
-    @apply bg-white;
+  .text-base-medium-leading6-underline {
+    @apply text-base-medium-leading6 underline;
+  }
+  .text-base-medium-leading6-trackingwide {
+    @apply text-base-medium-leading6 tracking-tight;
+  }
+  .text-base-medium-leading6-trackingwide {
+    @apply text-base-medium-leading6 tracking-wide;
+  }
 }
