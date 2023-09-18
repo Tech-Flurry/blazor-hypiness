@@ -4,7 +4,7 @@
   "description": "Blazor UI Components",
   "main": "index.js",
   "scripts": {
-    "buildCss": "postcss ./src/css/**/*.css --base ./src/css/ --dir ./BlazorHypiness/wwwroot/ --verbose && postcss ./Css/**/*.razor.css --base ./Css --dir ./Css --verbose",
+    "buildCss": "postcss ./src/css/styles/**/*.css --base ./src/css/styles --dir ./BlazorHypiness/wwwroot/styles --verbose && postcss ./src/css/Components/**/*.css --base ./src/css/Components --dir ./BlazorHypiness/Components --ext .razor.css --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Umair Tahir",
