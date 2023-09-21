@@ -170,4 +170,11 @@ public enum SvgIconNames
 	Folder,
 	Forward,
 	Funnel,
+	Gif,
+	GiftTop,
+	Gift,
+	GlobeAlt,
+	GlobeAmericas,
+	GlobeAsiaAustralia,
+	GlobeEuropeAfrica,
 }
