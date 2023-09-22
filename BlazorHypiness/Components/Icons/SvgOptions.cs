@@ -189,4 +189,5 @@ public enum SvgIconNames
 	InboxStack,
 	Inbox,
 	InformationCircle,
+	Key,
 }
