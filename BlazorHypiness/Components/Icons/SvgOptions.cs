@@ -177,4 +177,11 @@ public enum SvgIconNames
 	GlobeAmericas,
 	GlobeAsiaAustralia,
 	GlobeEuropeAfrica,
+	HandRaised,
+	HandThumbDown,
+	HandThumbUp,
+	Hashtag,
+	Heart,
+	HomeModern,
+	Home
 }
