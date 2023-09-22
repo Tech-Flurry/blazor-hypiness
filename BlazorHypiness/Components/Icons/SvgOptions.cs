@@ -183,5 +183,10 @@ public enum SvgIconNames
 	Hashtag,
 	Heart,
 	HomeModern,
-	Home
+	Home,
+	Identification,
+	InboxArrowDown,
+	InboxStack,
+	Inbox,
+	InformationCircle,
 }
