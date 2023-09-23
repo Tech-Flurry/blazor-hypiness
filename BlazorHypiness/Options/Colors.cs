@@ -6,5 +6,6 @@ public enum Colors
 	Secondary,
 	Accent,
 	Error,
-	Success
+	Success,
+	Dark
 }

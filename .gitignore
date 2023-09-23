@@ -348,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/BlazorHypiness/wwwroot/styles/site.css
+/BlazorHypiness/Components/Layouts/StretchedLayout.razor.css
+/src/css/Components/Layouts/StretchedLayout.css
