@@ -238,4 +238,11 @@ public enum SvgIconNames
 	QrCode,
 	QuestionMarkCircle,
 	QueueList,
+	Radio,
+	ReceiptPercent,
+	ReceiptRefund,
+	RectangleGroup,
+	RectangleStack,
+	RocketLaunch,
+	Rss,
 }
