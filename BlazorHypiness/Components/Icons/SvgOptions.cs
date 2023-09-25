@@ -210,4 +210,6 @@ public enum SvgIconNames
 	Minus,
 	Moon,
 	MusicalNote,
+	Newspaper,
+	NoSymbol,
 }
