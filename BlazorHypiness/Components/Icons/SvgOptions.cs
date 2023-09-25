@@ -201,4 +201,13 @@ public enum SvgIconNames
 	MagnifyingGlassMinus,
 	MagnifyingGlassPlus,
 	MagnifyingGlass,
+	MapPin,
+	Map,
+	Megaphone,
+	Microphone,
+	MinusCircle,
+	MinusSmall,
+	Minus,
+	Moon,
+	MusicalNote,
 }
