@@ -235,4 +235,7 @@ public enum SvgIconNames
 	PresentationChartLine,
 	Printer,
 	PuzzlePiece,
+	QrCode,
+	QuestionMarkCircle,
+	QueueList,
 }
