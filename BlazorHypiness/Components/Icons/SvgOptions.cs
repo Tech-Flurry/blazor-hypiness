@@ -286,4 +286,9 @@ public enum SvgIconNames
 	VideoCamera,
 	ViewColumns,
 	ViewfinderCircle,
+	Wallet,
+	WIFI,
+	Window,
+	WrenchScrewdriver,
+	Wrench,
 }
