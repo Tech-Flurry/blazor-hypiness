@@ -291,4 +291,6 @@ public enum SvgIconNames
 	Window,
 	WrenchScrewdriver,
 	Wrench,
+	XCircle,
+	XMark,
 }
