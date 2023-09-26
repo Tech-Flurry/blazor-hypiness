@@ -5,8 +5,7 @@ module.exports = {
   prefix: "hyp-",
   content: [
     "./BlazorHypiness/wwwroot/**/*.{html,htm,js}",
-    "./BlazorHypiness/Components/**/*.razor",
-    "./BlazorHypiness/Components/**/*.razor.cs",
+    "./BlazorHypiness/Components/**/*.{razor, razor.cs}",
     "./src/css/styles/**/*.css",
   ],
   theme: {
