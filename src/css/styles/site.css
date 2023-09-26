@@ -25,7 +25,7 @@
     @apply hyp-text-xs-semi-leading4 hyp-uppercase;
   }
   .hyp-text-xs-semi-leading4-trackingwide {
-    @apply text-xs-semi-leading4-upper hyp-tracking-tight;
+    @apply hyp-text-xs-semi-leading4-upper hyp-tracking-tight;
   }
   .hyp-text-xs-semi-leading4-trackingwider {
     @apply hyp-text-xs-semi-leading4-upper hyp-tracking-wider;
