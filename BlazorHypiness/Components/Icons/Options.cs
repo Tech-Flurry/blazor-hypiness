@@ -1,5 +1,5 @@
 ﻿namespace BlazorHypiness.Components.Icons;
-public enum SvgIconNames
+public enum HeroIconNames
 {
 	AcademicCap = 1,
 	AdjustmentsHorizontal,
