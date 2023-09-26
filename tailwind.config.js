@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   prefix: "hyp-",
@@ -10,6 +10,13 @@ module.exports = {
     "./src/css/styles/**/*.css",
   ],
   theme: {
+    screens: {
+      sm: "576px",
+      md: "768px",
+      lg: "992px",
+      xl: "1200px",
+      xxl: "1400px",
+    },
     colors: {
       primary: {
         900: "#1E3A8A",
