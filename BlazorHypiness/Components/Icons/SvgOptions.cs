@@ -275,4 +275,10 @@ public enum SvgIconNames
 	Trophy,
 	Truck,
 	Tv,
+	UserCircle,
+	UserGroup,
+	UserMinus,
+	UserPlus,
+	User,
+	Users,
 }
