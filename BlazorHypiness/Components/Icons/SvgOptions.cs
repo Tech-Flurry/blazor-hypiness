@@ -268,4 +268,11 @@ public enum SvgIconNames
 	Stop,
 	Sun,
 	Swatch,
+	TableCells,
+	Tag,
+	Ticket,
+	Trash,
+	Trophy,
+	Truck,
+	Tv,
 }
