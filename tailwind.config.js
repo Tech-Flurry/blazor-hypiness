@@ -3,9 +3,10 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: [
-    "./BlazorHypiness/wwwroot/**/*.{html,htm,js,css}",
+    "./BlazorHypiness/wwwroot/**/*.{html,htm,js}",
     "./BlazorHypiness/Components/**/*.razor",
-    "./src/css/**/*.css",
+    "./BlazorHypiness/Components/**/*.razor.cs",
+    "./src/css/styles/**/*.css",
   ],
   theme: {
     colors: {
