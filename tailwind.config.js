@@ -2,6 +2,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
+  prefix: "hyp-",
   content: [
     "./BlazorHypiness/wwwroot/**/*.{html,htm,js}",
     "./BlazorHypiness/Components/**/*.razor",

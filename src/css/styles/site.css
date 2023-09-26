@@ -3,272 +3,272 @@
 @tailwind utilities;
 
 @layer components {
-  .text-xs-normal-leadingnone {
-    @apply text-xs font-normal font-base leading-3;
+  .hyp-text-xs-normal-leadingnone {
+    @apply hyp-text-xs hyp-font-normal hyp-font-base hyp-leading-3;
   }
-  .text-xs-noraml-leading4 {
-    @apply text-xs font-normal font-base leading-none;
+  .hyp-text-xs-noraml-leading4 {
+    @apply hyp-text-xs hyp-font-normal hyp-font-base hyp-leading-none;
   }
-  .text-xs-medium-leading4 {
-    @apply text-xs font-medium font-base leading-none;
+  .hyp-text-xs-medium-leading4 {
+    @apply hyp-text-xs hyp-font-medium hyp-font-base hyp-leading-none;
   }
-  .text-xs-semi-leading4 {
-    @apply text-xs font-semibold font-base leading-none;
+  .hyp-text-xs-semi-leading4 {
+    @apply hyp-text-xs hyp-font-semibold hyp-font-base hyp-leading-none;
   }
-  .text-xs-medium-leading4-trackingwider {
-    @apply text-xs-medium-leading4 uppercase tracking-wide;
+  .hyp-text-xs-medium-leading4-trackingwider {
+    @apply hyp-text-xs-medium-leading4 hyp-uppercase hyp-tracking-wide;
   }
-  .text-xs-medium-leading4-trackingwide {
-    @apply text-xs-medium-leading4 uppercase tracking-tight;
+  .hyp-text-xs-medium-leading4-trackingwide {
+    @apply hyp-text-xs-medium-leading4 hyp-uppercase hyp-tracking-tight;
   }
-  .text-xs-semi-leading4-upper {
-    @apply text-xs-semi-leading4 uppercase;
+  .hyp-text-xs-semi-leading4-upper {
+    @apply hyp-text-xs-semi-leading4 hyp-uppercase;
   }
-  .text-xs-semi-leading4-trackingwide {
-    @apply text-xs-semi-leading4-upper tracking-tight;
+  .hyp-text-xs-semi-leading4-trackingwide {
+    @apply text-xs-semi-leading4-upper hyp-tracking-tight;
   }
-  .text-xs-semi-leading4-trackingwider {
-    @apply text-xs-semi-leading4-upper tracking-wider;
+  .hyp-text-xs-semi-leading4-trackingwider {
+    @apply hyp-text-xs-semi-leading4-upper hyp-tracking-wider;
   }
-  .text-xs-normal-leading5 {
-    @apply text-xs font-normal font-base leading-tight;
+  .hyp-text-xs-normal-leading5 {
+    @apply hyp-text-xs hyp-font-normal hyp-font-base hyp-leading-tight;
   }
-  .text-xs-medium-leading5 {
-    @apply text-xs font-medium font-base leading-tight;
+  .hyp-text-xs-medium-leading5 {
+    @apply hyp-text-xs hyp-font-medium hyp-font-base hyp-leading-tight;
   }
-  .text-xs-semi-leading5-trackingwide {
-    @apply text-xs font-semibold font-base uppercase leading-tight tracking-tight;
+  .hyp-text-xs-semi-leading5-trackingwide {
+    @apply hyp-text-xs hyp-font-semibold hyp-font-base hyp-uppercase hyp-leading-tight hyp-tracking-tight;
   }
-  .text-sm-normal-leadingnone {
-    @apply text-sm font-normal font-base leading-[14px];
+  .hyp-text-sm-normal-leadingnone {
+    @apply hyp-text-sm hyp-font-normal hyp-font-base hyp-leading-[14px];
   }
-  .text-sm-medium-leading4 {
-    @apply text-sm font-medium font-base leading-none;
+  .hyp-text-sm-medium-leading4 {
+    @apply hyp-text-sm hyp-font-medium hyp-font-base hyp-leading-none;
   }
-  .text-sm-normal-leading5 {
-    @apply text-sm font-normal font-base leading-tight;
+  .hyp-text-sm-normal-leading5 {
+    @apply hyp-text-sm hyp-font-normal hyp-font-base hyp-leading-tight;
   }
-  .text-sm-medium-leading5 {
-    @apply text-sm font-medium font-base leading-tight;
+  .hyp-text-sm-medium-leading5 {
+    @apply hyp-text-sm hyp-font-medium hyp-font-base hyp-leading-tight;
   }
-  .text-sm-semibold-leading5 {
-    @apply text-sm font-semibold font-base leading-tight;
+  .hyp-text-sm-semibold-leading5 {
+    @apply hyp-text-sm hyp-font-semibold hyp-font-base hyp-leading-tight;
   }
-  .text-sm-bold-leading5 {
-    @apply text-sm font-bold font-base leading-tight;
+  .hyp-text-sm-bold-leading5 {
+    @apply hyp-text-sm hyp-font-bold hyp-font-base hyp-leading-tight;
   }
-  .text-sm-normal-leading5-upper {
-    @apply text-sm-normal-leading5 uppercase;
+  .hyp-text-sm-normal-leading5-upper {
+    @apply hyp-text-sm-normal-leading5 hyp-uppercase;
   }
-  .text-sm-normal-leading5-italic {
-    @apply text-sm-normal-leading5 italic;
+  .hyp-text-sm-normal-leading5-italic {
+    @apply hyp-text-sm-normal-leading5 hyp-italic;
   }
-  .text-sm-medium-leading5-underline {
-    @apply text-sm-medium-leading5 underline;
+  .hyp-text-sm-medium-leading5-underline {
+    @apply hyp-text-sm-medium-leading5 hyp-underline;
   }
-  .text-sm-medium-leading5-trackingwide {
-    @apply text-sm-medium-leading5 tracking-tight uppercase;
+  .hyp-text-sm-medium-leading5-trackingwide {
+    @apply hyp-text-sm-medium-leading5 hyp-tracking-tight hyp-uppercase;
   }
-  .text-sm-semibold-leading5-underline {
-    @apply text-sm-medium-leading5 underline;
+  .hyp-text-sm-semibold-leading5-underline {
+    @apply hyp-text-sm-medium-leading5 hyp-underline;
   }
-  .text-sm-semibold-leading5-trackingwide {
-    @apply text-sm-medium-leading5 uppercase tracking-tight;
+  .hyp-text-sm-semibold-leading5-trackingwide {
+    @apply hyp-text-sm-medium-leading5 hyp-uppercase hyp-tracking-tight;
   }
-  .text-sm-semibold-leading5-trackingwider {
-    @apply text-sm-medium-leading5 uppercase tracking-wide;
+  .hyp-text-sm-semibold-leading5-trackingwider {
+    @apply hyp-text-sm-medium-leading5 hyp-uppercase hyp-tracking-wide;
   }
-  .text-sm-normal-leading8 {
-    @apply text-sm font-normal font-base leading-loose;
+  .hyp-text-sm-normal-leading8 {
+    @apply hyp-text-sm hyp-font-normal hyp-font-base hyp-leading-loose;
   }
-  .text-sm-medium-leading8 {
-    @apply text-sm font-medium font-base leading-loose;
+  .hyp-text-sm-medium-leading8 {
+    @apply hyp-text-sm hyp-font-medium hyp-font-base hyp-leading-loose;
   }
-  .text-base-normal-leadingnone {
-    @apply text-base font-normal font-base leading-none;
+  .hyp-text-base-normal-leadingnone {
+    @apply hyp-text-base hyp-font-normal hyp-font-base hyp-leading-none;
   }
-  .text-base-normal-leading6 {
-    @apply text-base font-normal font-base leading-normal;
+  .hyp-text-base-normal-leading6 {
+    @apply hyp-text-base hyp-font-normal hyp-font-base hyp-leading-normal;
   }
-  .text-base-medium-leading6 {
-    @apply text-base font-medium font-base leading-normal;
+  .hyp-text-base-medium-leading6 {
+    @apply hyp-text-base hyp-font-medium hyp-font-base hyp-leading-normal;
   }
-  .text-base-semi-leading6 {
-    @apply text-base font-semibold font-base leading-normal;
+  .hyp-text-base-semi-leading6 {
+    @apply hyp-text-base hyp-font-semibold hyp-font-base hyp-leading-normal;
   }
-  .text-base-bold-leading6 {
-    @apply text-base font-bold font-base leading-normal;
-  }
-
-  .text-base-medium-leading6-underline {
-    @apply text-base-medium-leading6 underline;
-  }
-  .text-base-medium-leading6-trackingwide {
-    @apply text-base-medium-leading6 tracking-tight;
-  }
-  .text-base-medium-leading6-trackingwider {
-    @apply text-base-medium-leading6 tracking-wide;
-  }
-  .text-base-normal-leading7 {
-    @apply text-base font-normal font-base leading-7;
-  }
-  .text-base-medium-leading7 {
-    @apply text-base font-medium font-base leading-7;
-  }
-  .text-base-semi-leading7 {
-    @apply text-base font-semibold font-base leading-7;
-  }
-  .text-base-bold-leading7 {
-    @apply text-base font-bold font-base leading-7;
-  }
-  .text-base-normal-leading8 {
-    @apply text-base font-normal font-base leading-8;
-  }
-  .text-base-medium-leading8 {
-    @apply text-base font-medium font-base leading-8;
-  }
-  .text-base-semi-leading8 {
-    @apply text-base font-semibold font-base leading-8;
-  }
-  .text-base-bold-leading8 {
-    @apply text-base font-bold font-base leading-8;
-  }
-  .text-lg-normal-leadingnone {
-    @apply text-lg font-normal font-base leading-none;
-  }
-  .text-lg-normal-leading6 {
-    @apply text-lg font-normal font-base leading-normal;
-  }
-  .text-lg-medium-leading6 {
-    @apply text-lg font-medium font-base leading-normal;
-  }
-  .text-lg-semi-leading6 {
-    @apply text-lg font-semibold font-base leading-normal;
-  }
-  .text-lg-bold-leading6 {
-    @apply text-lg font-bold font-base leading-normal;
-  }
-  .text-lg-semi-leading6-trackingwider {
-    @apply text-lg font-semibold font-base leading-normal tracking-wide;
-  }
-  .text-lg-normal-leading7 {
-    @apply text-lg font-normal font-base leading-7;
-  }
-  .text-lg-medium-leading7 {
-    @apply text-lg font-medium font-base leading-7;
-  }
-  .text-lg-semi-leading7 {
-    @apply text-lg font-semibold font-base leading-7;
-  }
-  .text-lg-bold-leading7 {
-    @apply text-lg font-bold font-base leading-7;
+  .hyp-text-base-bold-leading6 {
+    @apply hyp-text-base hyp-font-bold hyp-font-base hyp-leading-normal;
   }
 
-  .text-lg-normal-leading8 {
-    @apply text-lg font-normal font-base leading-loose;
+  .hyp-text-base-medium-leading6-underline {
+    @apply hyp-text-base-medium-leading6 hyp-underline;
   }
-  .text-lg-medium-leading8 {
-    @apply text-lg font-medium font-base leading-loose;
+  .hyp-text-base-medium-leading6-trackingwide {
+    @apply hyp-text-base-medium-leading6 hyp-tracking-tight;
   }
-  .text-lg-semi-leading8 {
-    @apply text-lg font-semibold font-base leading-loose;
+  .hyp-text-base-medium-leading6-trackingwider {
+    @apply hyp-text-base-medium-leading6 hyp-tracking-wide;
+  }
+  .hyp-text-base-normal-leading7 {
+    @apply hyp-text-base hyp-font-normal hyp-font-base hyp-leading-7;
+  }
+  .hyp-text-base-medium-leading7 {
+    @apply hyp-text-base hyp-font-medium hyp-font-base hyp-leading-7;
+  }
+  .hyp-text-base-semi-leading7 {
+    @apply hyp-text-base hyp-font-semibold hyp-font-base hyp-leading-7;
+  }
+  .hyp-text-base-bold-leading7 {
+    @apply hyp-text-base hyp-font-bold hyp-font-base hyp-leading-7;
+  }
+  .hyp-text-base-normal-leading8 {
+    @apply hyp-text-base hyp-font-normal hyp-font-base hyp-leading-8;
+  }
+  .hyp-text-base-medium-leading8 {
+    @apply hyp-text-base hyp-font-medium hyp-font-base hyp-leading-8;
+  }
+  .hyp-text-base-semi-leading8 {
+    @apply hyp-text-base hyp-font-semibold hyp-font-base hyp-leading-8;
+  }
+  .hyp-text-base-bold-leading8 {
+    @apply hyp-text-base hyp-font-bold hyp-font-base hyp-leading-8;
+  }
+  .hyp-text-lg-normal-leadingnone {
+    @apply hyp-text-lg hyp-font-normal hyp-font-base hyp-leading-none;
+  }
+  .hyp-text-lg-normal-leading6 {
+    @apply hyp-text-lg hyp-font-normal hyp-font-base hyp-leading-normal;
+  }
+  .hyp-text-lg-medium-leading6 {
+    @apply hyp-text-lg hyp-font-medium hyp-font-base hyp-leading-normal;
+  }
+  .hyp-text-lg-semi-leading6 {
+    @apply hyp-text-lg hyp-font-semibold hyp-font-base hyp-leading-normal;
+  }
+  .hyp-text-lg-bold-leading6 {
+    @apply hyp-text-lg hyp-font-bold hyp-font-base hyp-leading-normal;
+  }
+  .hyp-text-lg-semi-leading6-trackingwider {
+    @apply hyp-text-lg hyp-font-semibold hyp-font-base hyp-leading-normal hyp-tracking-wide;
+  }
+  .hyp-text-lg-normal-leading7 {
+    @apply hyp-text-lg hyp-font-normal hyp-font-base hyp-leading-7;
+  }
+  .hyp-text-lg-medium-leading7 {
+    @apply hyp-text-lg hyp-font-medium hyp-font-base hyp-leading-7;
+  }
+  .hyp-text-lg-semi-leading7 {
+    @apply hyp-text-lg hyp-font-semibold hyp-font-base hyp-leading-7;
+  }
+  .hyp-text-lg-bold-leading7 {
+    @apply hyp-text-lg hyp-font-bold hyp-font-base hyp-leading-7;
   }
 
-  .text-xl-normal-leadingnone {
-    @apply text-xl font-normal font-base leading-none;
+  .hyp-text-lg-normal-leading8 {
+    @apply hyp-text-lg hyp-font-normal hyp-font-base hyp-leading-loose;
+  }
+  .hyp-text-lg-medium-leading8 {
+    @apply hyp-text-lg hyp-font-medium hyp-font-base hyp-leading-loose;
+  }
+  .hyp-text-lg-semi-leading8 {
+    @apply hyp-text-lg hyp-font-semibold hyp-font-base hyp-leading-loose;
   }
 
-  .text-xl-normal-leading7 {
-    @apply text-xl font-normal font-base leading-7;
+  .hyp-text-xl-normal-leadingnone {
+    @apply hyp-text-xl hyp-font-normal hyp-font-base hyp-leading-none;
   }
-  .text-xl-medium-leading7 {
-    @apply text-xl font-medium font-base leading-7;
+
+  .hyp-text-xl-normal-leading7 {
+    @apply hyp-text-xl hyp-font-normal hyp-font-base hyp-leading-7;
   }
-  .text-xl-semi-leading7 {
-    @apply text-xl font-semibold font-base leading-7;
+  .hyp-text-xl-medium-leading7 {
+    @apply hyp-text-xl hyp-font-medium hyp-font-base hyp-leading-7;
   }
-  .text-xl-bold-leading7 {
-    @apply text-xl font-bold font-base leading-7;
+  .hyp-text-xl-semi-leading7 {
+    @apply hyp-text-xl hyp-font-semibold hyp-font-base hyp-leading-7;
   }
-  .text-xl-normal-leading8 {
-    @apply text-xl font-normal font-base leading-loose;
+  .hyp-text-xl-bold-leading7 {
+    @apply hyp-text-xl hyp-font-bold hyp-font-base hyp-leading-7;
   }
-  .text-xl-semi-leading8 {
-    @apply text-xl font-semibold font-base leading-loose;
+  .hyp-text-xl-normal-leading8 {
+    @apply hyp-text-xl hyp-font-normal hyp-font-base hyp-leading-loose;
   }
-  .text-2xl-normal-leadingnone {
-    @apply text-2xl font-normal font-base leading-normal;
+  .hyp-text-xl-semi-leading8 {
+    @apply hyp-text-xl hyp-font-semibold hyp-font-base hyp-leading-loose;
   }
-  .text-2xl-bold-leading7 {
-    @apply text-2xl font-bold font-base leading-7;
+  .hyp-text-2xl-normal-leadingnone {
+    @apply hyp-text-2xl hyp-font-normal hyp-font-base hyp-leading-normal;
   }
-  .text-2xl-normal-leading8 {
-    @apply text-2xl font-normal font-base leading-loose;
+  .hyp-text-2xl-bold-leading7 {
+    @apply hyp-text-2xl hyp-font-bold hyp-font-base hyp-leading-7;
   }
-  .text-2xl-medium-leading8 {
-    @apply text-2xl font-medium font-base leading-loose;
+  .hyp-text-2xl-normal-leading8 {
+    @apply hyp-text-2xl hyp-font-normal hyp-font-base hyp-leading-loose;
   }
-  .text-2xl-semi-leading8 {
-    @apply text-2xl font-semibold font-base leading-loose;
+  .hyp-text-2xl-medium-leading8 {
+    @apply hyp-text-2xl hyp-font-medium hyp-font-base hyp-leading-loose;
   }
-  .text-2xl-bold-leading8 {
-    @apply text-2xl font-bold font-base leading-loose;
+  .hyp-text-2xl-semi-leading8 {
+    @apply hyp-text-2xl hyp-font-semibold hyp-font-base hyp-leading-loose;
   }
-  .text-2xl-extrabold-leading8-trackingtight {
-    @apply text-2xl font-extrabold font-base leading-loose;
+  .hyp-text-2xl-bold-leading8 {
+    @apply hyp-text-2xl hyp-font-bold hyp-font-base hyp-leading-loose;
   }
-  .text-2xl-medium-leading9 {
-    @apply text-2xl font-medium font-base leading-9;
+  .hyp-text-2xl-extrabold-leading8-trackingtight {
+    @apply hyp-text-2xl hyp-font-extrabold hyp-font-base hyp-leading-loose;
   }
-  .text-3xl-extrabold-leading8-trackingtight {
-    @apply text-3xl font-extrabold font-base leading-loose;
+  .hyp-text-2xl-medium-leading9 {
+    @apply hyp-text-2xl hyp-font-medium hyp-font-base hyp-leading-9;
   }
-  .text-3xl-normal-leading9 {
-    @apply text-3xl font-normal font-base leading-9;
+  .hyp-text-3xl-extrabold-leading8-trackingtight {
+    @apply hyp-text-3xl hyp-font-extrabold hyp-font-base hyp-leading-loose;
   }
-  .text-3xl-medium-leading9 {
-    @apply text-3xl font-medium font-base leading-9;
+  .hyp-text-3xl-normal-leading9 {
+    @apply hyp-text-3xl hyp-font-normal hyp-font-base hyp-leading-9;
   }
-  .text-3xl-semi-leading9 {
-    @apply text-3xl font-semibold font-base leading-9;
+  .hyp-text-3xl-medium-leading9 {
+    @apply hyp-text-3xl hyp-font-medium hyp-font-base hyp-leading-9;
   }
-  .text-3xl-bold-leading9 {
-    @apply text-3xl font-bold font-base leading-9;
+  .hyp-text-3xl-semi-leading9 {
+    @apply hyp-text-3xl hyp-font-semibold hyp-font-base hyp-leading-9;
   }
-  .text-3xl-extrabold-leading9 {
-    @apply text-3xl font-extrabold font-base leading-9;
+  .hyp-text-3xl-bold-leading9 {
+    @apply hyp-text-3xl hyp-font-bold hyp-font-base hyp-leading-9;
   }
-  .text-3xl-bold-leading10 {
-    @apply text-3xl font-bold font-base leading-10;
+  .hyp-text-3xl-extrabold-leading9 {
+    @apply hyp-text-3xl hyp-font-extrabold hyp-font-base hyp-leading-9;
   }
-  .text-4xl-normal-leading10 {
-    @apply text-4xl font-normal font-base leading-10;
+  .hyp-text-3xl-bold-leading10 {
+    @apply hyp-text-3xl hyp-font-bold hyp-font-base hyp-leading-10;
   }
-  .text-4xl-medium-leading10 {
-    @apply text-4xl font-medium font-base leading-10;
+  .hyp-text-4xl-normal-leading10 {
+    @apply hyp-text-4xl hyp-font-normal hyp-font-base hyp-leading-10;
   }
-  .text-4xl-extrabold-leading10 {
-    @apply text-4xl font-extrabold font-base leading-10;
+  .hyp-text-4xl-medium-leading10 {
+    @apply hyp-text-4xl hyp-font-medium hyp-font-base hyp-leading-10;
   }
-  .text-5xl-normal-leadingnone {
-    @apply text-5xl font-normal font-base leading-[48px];
+  .hyp-text-4xl-extrabold-leading10 {
+    @apply hyp-text-4xl hyp-font-extrabold hyp-font-base hyp-leading-10;
   }
-  .text-5xl-extrabold-leadingnone {
-    @apply text-5xl font-extrabold font-base leading-[48px];
+  .hyp-text-5xl-normal-leadingnone {
+    @apply hyp-text-5xl hyp-font-normal hyp-font-base hyp-leading-[48px];
   }
-  .text-6xl-normal-leadingnone {
-    @apply text-6xl font-normal font-base leading-[60px];
+  .hyp-text-5xl-extrabold-leadingnone {
+    @apply hyp-text-5xl hyp-font-extrabold hyp-font-base hyp-leading-[48px];
   }
-  .text-6xl-extrabold-leadingnone {
-    @apply text-6xl font-extrabold font-base leading-[60px];
+  .hyp-text-6xl-normal-leadingnone {
+    @apply hyp-text-6xl hyp-font-normal hyp-font-base hyp-leading-[60px];
   }
-  .text-7xl-normal-leadingnone {
-    @apply text-7xl font-normal font-base leading-[60px];
+  .hyp-text-6xl-extrabold-leadingnone {
+    @apply hyp-text-6xl hyp-font-extrabold hyp-font-base hyp-leading-[60px];
   }
-  .text-8xl-normal-leadingnone {
-    @apply text-8xl font-normal font-base leading-[60px];
+  .hyp-text-7xl-normal-leadingnone {
+    @apply hyp-text-7xl hyp-font-normal hyp-font-base hyp-leading-[60px];
   }
-  .text-9xl-normal-leadingnone {
-    @apply text-9xl font-normal font-base leading-[60px];
+  .hyp-text-8xl-normal-leadingnone {
+    @apply hyp-text-8xl hyp-font-normal hyp-font-base hyp-leading-[60px];
+  }
+  .hyp-text-9xl-normal-leadingnone {
+    @apply hyp-text-9xl hyp-font-normal hyp-font-base hyp-leading-[60px];
   }
 }
