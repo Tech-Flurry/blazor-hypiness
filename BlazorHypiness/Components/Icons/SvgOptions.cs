@@ -281,4 +281,9 @@ public enum SvgIconNames
 	UserPlus,
 	User,
 	Users,
+	Variable,
+	VideoCameraSlash,
+	VideoCamera,
+	ViewColumns,
+	ViewfinderCircle,
 }
