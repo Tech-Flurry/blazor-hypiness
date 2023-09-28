@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: latest
       - run: npm install
+      - run: npm run buildCss
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
