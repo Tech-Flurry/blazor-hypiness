@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .hyp-stretched-container {
+    @apply hyp-px-0 md:hyp-px-[32px] hyp-py-[3px];
+  }
+
+  .hyp-padded-container {
+    @apply hyp-px-[16px] hyp-py-[3px] md:hyp-px-[32px];
+  }
+  .hyp-fullwidth-container {
+    @apply hyp-px-[16px] hyp-py-[3px] md:hyp-px-[32px];
+  }
+  .hyp-narrow-container {
+    @apply hyp-px-[16px] hyp-py-[3px] md:hyp-px-[56px];
+  }
+}
