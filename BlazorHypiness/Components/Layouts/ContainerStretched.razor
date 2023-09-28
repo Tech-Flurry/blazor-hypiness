@@ -1,6 +1,12 @@
-﻿@inherits HypinessLayoutBase
+﻿@using BlazorHypiness.Infrastructure;
+@inherits HypinessComponent
 
-<div class="hyp-stretched-layout @CompiledCss" @attributes="InputAttributes">
-    @Body
+<div class="hyp-stretched-container @CompiledCss">
+    @ChildContent
 </div>
+
+@code{
+    [Parameter, EditorRequired]
+    public RenderFragment ChildContent { get; set; } = null!;
+}
 
