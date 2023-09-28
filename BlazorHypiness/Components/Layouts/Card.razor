@@ -1,4 +1,5 @@
-﻿@inherits HypinessComponent
+﻿@using BlazorHypiness.Constants;
+@inherits HypinessComponent
 
 
 @if (Header is not null)
@@ -10,7 +11,7 @@
     </div>
 }
 
-<div class="hyp-card-body" @attributes="InputAttributes">
+<div class="hyp-card-body @CompiledCss" @attributes="InputAttributes">
     @if (Body is not null)
     {
         @Body
@@ -24,12 +25,14 @@
 @if (Footer is not null)
 {
     <div class="hyp-card-divider"></div>
-    <div class="hyp-card-footer">
+    <div class="hyp-card-footer @(IsGrayFooter?BG_GRAY:Strings.EMPTY_STRING)">
         @Footer
     </div>
 }
 
 @code {
+    private const string BG_GRAY = "hyp-bg-gray-50";
+
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
 
@@ -41,4 +44,17 @@
 
     [Parameter]
     public RenderFragment? Footer { get; set; }
+
+    [Parameter]
+    public bool IsGrayFooter { get; set; }
+
+    [Parameter]
+    public bool IsGrayBody { get; set; }
+
+    protected override CssBuilder BuildCss(CssBuilder builder)
+    {
+        if (IsGrayBody)
+            builder.Add(BG_GRAY);
+        return base.BuildCss(builder);
+    }
 }
