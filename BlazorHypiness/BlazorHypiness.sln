@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34112.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorHypiness", "BlazorHypiness.csproj", "{9865F0E2-9773-421D-98EE-41D3DC276BBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorHypiness.Tests", "..\BlazorHypiness.Tests\BlazorHypiness.Tests.csproj", "{3A33B790-49CD-4295-A61D-35836DAE67A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9865F0E2-9773-421D-98EE-41D3DC276BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9865F0E2-9773-421D-98EE-41D3DC276BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9865F0E2-9773-421D-98EE-41D3DC276BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A33B790-49CD-4295-A61D-35836DAE67A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A33B790-49CD-4295-A61D-35836DAE67A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A33B790-49CD-4295-A61D-35836DAE67A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A33B790-49CD-4295-A61D-35836DAE67A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

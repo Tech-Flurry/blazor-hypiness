@@ -1,0 +1,3 @@
+.hyp-padded-container {
+  @apply hyp-px-[1.65px] hyp-py-[3px] md:hyp-px-[5.85px];
+}

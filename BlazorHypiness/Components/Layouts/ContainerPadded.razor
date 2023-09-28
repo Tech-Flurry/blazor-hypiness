@@ -1,0 +1,11 @@
+﻿@inherits HypinessComponent
+
+<div class="hyp-padded-container @CompiledCss">
+    @ChildContent
+</div>
+
+
+@code {
+    [Parameter, EditorRequired]
+    public RenderFragment ChildContent { get; set; } = null!;
+}
