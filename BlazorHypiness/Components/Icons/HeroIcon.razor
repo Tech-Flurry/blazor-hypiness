@@ -3013,9 +3013,6 @@
 
 @code {
 
-    [Parameter]
-    public string CssClass { get; set; } = Constants.Strings.EMPTY_STRING;
-
     [Parameter, EditorRequired]
     public HeroIconNames IconName { get; set; }
 
@@ -3027,8 +3024,6 @@
 
     protected override CssBuilder BuildCss(CssBuilder builder)
     {
-        builder.Add(CssClass);
-
         var color = Color switch
         {
             Colors.Primary => "stroke-primary-600",
