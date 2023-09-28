@@ -1,0 +1,19 @@
+.hyp-card-body {
+  @apply hyp-px-4 hyp-py-5 md:!hyp-p-6 hyp-rounded-lg hyp-shadow-base;
+}
+
+.hyp-card-header-o {
+  @apply hyp-rounded-lg hyp-shadow-base;
+}
+
+.hyp-card-header-i {
+  @apply hyp-self-stretch hyp-px-4 hyp-py-5 md:!hyp-p-6;
+}
+
+.hyp-card-divider {
+  @apply hyp-self-stretch hyp-bg-gray-200;
+}
+
+.hyp-card-footer {
+  @apply hyp-self-stretch hyp-px-4 hyp-py-5 md:!hyp-p-6;
+}
