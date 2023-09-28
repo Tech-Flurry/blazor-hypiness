@@ -1,0 +1,37 @@
+name: "Build and Test"
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: latest
+      - run: npm install
+      - run: npm run buildCss
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore dependencies
+        working-directory: ./BlazorHypiness
+        run: dotnet restore
+      - name: Build
+        working-directory: ./BlazorHypiness
+        run: dotnet build --no-restore
+      - name: Test
+        working-directory: ./BlazorHypiness
+        run: dotnet test --no-build --verbosity normal
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
